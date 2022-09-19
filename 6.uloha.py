@@ -1,4 +1,4 @@
-a=int(input("Imput number: "))
+a=int(input("Input number: "))
 
 if a%2 == 0:
     print("number is even")
