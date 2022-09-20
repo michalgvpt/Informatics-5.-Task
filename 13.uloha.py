@@ -10,15 +10,15 @@ else:
     print("The triangle doesn't exist")
 
 if (a+b)>c and (a+c)>b and (c+b)>a:
-    alpha=((c**2-b**2-a**2)/(2*b*c))
+    alpha=((a**2-b**2-c**2)/(2*b*c))
     alpha=math.acos(alpha)
     alpha=math.degrees(alpha)
 
-    beta=((a**2-c**2-b**2)/(2*a*c))
+    beta=((b**2-a**2-c**2)/(2*a*c))
     beta=math.acos(beta)
     beta=math.degrees(beta)
 
-    gamma=((a**2-b**2-c**2)/(-(2*a*b)))
+    gamma=((c**2-a**2-b**2)/(2*a*b))
     gamma=math.acos(gamma)
     gamma=math.degrees(gamma)
 else:
