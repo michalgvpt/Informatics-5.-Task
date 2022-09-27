@@ -4,4 +4,3 @@ while n<=100:
     count+=1
     n+=1
 print("the count is:" ,count)
-
