@@ -5,13 +5,4 @@ def line(n, text=''):
     half2 = n - len(text) - half1
     print('*' * half1 + text + '*' * half2)
 
-width=40
-line(width)
-line(width, 'Ján Botto')
-line(width, 'Žltá ľalija')
-line(width, '-')
-line(width, 'Stojí stojí mohyla')
-line(width, 'Na mohyle zlá chvíľa')
-line(width, 'na mohyle tŕnie chrastie')
-line(width, 'a v tom tŕní chrastí rastie')
-line(width)
+line(int(input("Give width: ")),input("Insert text: "))

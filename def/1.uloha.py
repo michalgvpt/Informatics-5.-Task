@@ -7,6 +7,4 @@ def rectangle(width,symbol):
     print(symbol+' '*(width-2)+symbol)
     print(symbol*width)
 
-rectangle(30,'#')
-rectangle(6,'*')
-rectangle(19,'0')
+rectangle(int(input('Give number: ')),input('Give symbol: '))
